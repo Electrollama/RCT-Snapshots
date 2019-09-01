@@ -1,0 +1,19 @@
+This is a code I made to have previews for my custom coasters.
+Requirements:
+RCT 1 (only tested on the original CD-ROM version of the game, + expansions)
+Python (3.0+?); packages:
+  matplotlib
+  Pillow
+Basic instructions
+1) Save a custom ride in-game
+2) Place the ride in a big open area (I use an Arid Heights park)
+3) Remove base land and vertical faces so there's a black background; test the ride
+3b) If your ride uses black, you might want to re-color it so it shows up better.
+4) Get a good snapshot; it's okay if there's stuff around the edges.
+5) Run the program. I think it's set up to just run.
+6) Select the snapshot file in the program folder, which will be a deprecated image filetype.
+7) Pyplot with show you the image. Take note of the coordinates of where you'd like to crop the image.
+8) Enter to coordinates as directed.
+9) The program should allow you to save the resulting image.
+10) Name the file the same as your custom ride. Move it to the Custom Rides folder in the program directory.
+11) Open the game and test it out! Let me know if you have issues.
